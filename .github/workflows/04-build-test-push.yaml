@@ -36,5 +36,5 @@ jobs:
         run: docker push ${{ secrets.DOCKER_USERNAME }}/testapi:latest
 
       - name: UpdateRender
-        run: curl https://dashboard.render.com/web/srv-d87b62i8qa3s73d52f80
+        run: curl https://api.render.com/deploy/srv-d87b62i8qa3s73d52f80?key=RUuUKxFVOKg
           
