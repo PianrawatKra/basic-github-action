@@ -6,4 +6,4 @@ app = FastAPI()
 
 @app.get("/", tags=["home"])
 async def home() -> dict:
-    return {"message": "Hello world", "status": True}
+    return {"message": "V165161616161", "status": True}
